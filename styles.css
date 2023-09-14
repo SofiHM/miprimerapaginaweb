@@ -1,12 +1,14 @@
 body {
-    background-color: #c8e4d5;
-    color: #010f04;
+    background-color: #c8d7e4;
+    color: #07010f;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
+
 
 h1 {
     text-align: center;
-    color: #4d7e60;
+    color: #1d2f7e;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -19,12 +21,7 @@ p {
 
 h2 {
     margin: 10px;
-    width: 250px;
-}
-
-img {
-    margin-left: 60px;
-    padding: auto;
+    width: 600px;
 }
 
 .container {
@@ -36,11 +33,26 @@ img {
 .row {
     display: flex;
     margin: 10px;
+    align-items: center;
+}
+
+.imagenderick{
+      max-width: 250px;
+
+}
+
+.textoderick{
+    flex: 1;
 }
 
 .column {
     flex: 1;
     padding: 10px;
+}
+
+.parrafoyfoto {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 @media (max-width: 600px) {
@@ -57,14 +69,35 @@ img {
     display: flex;
     padding: 10px;
     height: 50px;
-    background-color: black;
+    background-color: rgb(9, 3, 34);
 }
 
+.LCDKimg {
+    width: 450px;
+    height: 225px;
+}
+
+.RiordanLogo {
+    width: 70px;
+    height: 70px;
+}
+
+.SagaLogos {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+}
+
+.SagaLogoK {
+    height: 70px;
+    vertical-align: middle;
+}
 
 .navbar {
     display: flex;
     justify-content: space-between;
     width: 100%;
+
 }
 
 
@@ -138,6 +171,10 @@ a {
 
 
     }
+}
+
+.greeting {
+    text-align: center;
 }
 
 /* moviles < 768px < tablet < 1024px < pc*/
